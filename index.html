@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritam's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class="logo">RITAM CHOUDHURY</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#stream">STREAM</a></li>
+            <li><a href="#language">LANGUAGE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+       </div>
+    </nav>
+    <nav id="hamburger-nav">
+     <div class="logo">RITAM CHOUDHURY</div>
+     <div class="hamburger-menu">
+       <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+       </div>
+       <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+        <li><a href="#stream" onclick="toggleMenu()">STREAM</a></li>
+        <li><a href="#language" onclick="toggleMenu()">LANGUAGE</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+       </div>
+     </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src= " ./RITAM'S PORTFOLIO PICTURE.jpg" alt="Ritam's pic"/>
+      <div class="section__text">
+        <p class="section__text__p1">Hello,I'm</p>
+        <h1 class="title">Ritam Choudhury</h1>
+        <p class="section__text__p2">1st Year B.Tech Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./Ritam.pdf')">
+            DOWNLOAD CV
+          </button>
+          <button class="btn btn-color-1" onclick ="location.href='./#contact'">
+            CONTACT INFO
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./instagram.png" alt="My instagram profile" class="icon" onclick="location.href='https://www.instagram.com'">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+     <p class="section__text__p1">Get To Know More</p>
+     <h1 class="title">About Me</h1>
+     <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./RITAM'S PORTFOLIO ABOUT PICTURE.jpg" alt="My profile picture" 
+        class="about pic">
+      </div>
+      <div class ="about-details-container">
+        <div class="about containers">
+          <div class="details-container">
+            <img src="./experience.png" alt="experience icon"
+            class="icon">
+            <h3>Experience</h3>
+            <p>0 years <br/>Amateur Coder in Java</p>
+            <div class="details-container">
+              <img src="./education.png" alt="education icon"
+              class="icon">
+              <h3>Education</h3>
+              <p>B.Tech Bachelors Degree</p> 
+            </div>
+          </div class="text-container">
+          <p>I am a first-year student at Techno Main Salt Lake and I am currently pursuing B.Tech in CSE-AIML. Perhaps an amateur coder but with a passion to become a succesful software developer in the future</p>
+        </div>
+      </div>
+     </div>
+    </section>
+    <section id="stream">
+      <p class="section__text__p1">About My</p>
+      <h1 class="title">Stream</h1>
+          <div class="details-container">
+            <h2 class="stream-sub-title">CSE-AIML</h2>
+            <div class="article-container">
+              <article>
+                <img src="./checkmark.png" alt="Stream icon"
+                class="icon"/>
+              </article>
+            </div>
+          </div>
+    </section>
+    <section id="language">
+      <p class="section__text__p1"> My</p>
+      <h1 class="title">Language Skills</h1>
+          <div class="language-details-container">
+            <h2 class="language-sub-title">ENGLISH BENGALI HINDI</h2>
+          </div>
+    </section>
+  <section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+     <h1 class="title">Contact Me At</h1>
+     <div class="contact-info-upper-container">
+     <div class="contact-info-container">
+      <img src="./email.png" alt="Email icon" class="icon contact-icon"/>
+      <p><a href="https://mail.google.com/"></a>ritamchoudhury253@gmail.com</p>
+     </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#stream">STREAM</a></li>
+          <li><a href="#language">LANGUAGE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Ritam Choudhury. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
